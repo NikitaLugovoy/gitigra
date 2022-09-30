@@ -7,7 +7,7 @@ class Werio:
 
     def udar(self , wrag):
         if True:
-            print('Боец {} нанёс удар своему сопернику {}'.format(self.name, wrag.name))3
+            print('Боец {} нанёс удар своему сопернику {}'.format(self.name, wrag.name))
             wrag.ostxp(
                 wrag.polxp() - random.randint(0, 30)
             )
